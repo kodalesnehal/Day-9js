@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TASK-3</title>
+      
+    </head>
+    <body>
+        <script>
+            function sum()
+			{
+                let addtion = 0;
+                let size = arguments.length;
+                for(let i=0;i<size;i++){
+                    addtion += arguments[i];
+                }
+                return addtion;
+            }
+
+            var x = sum(5,2);
+            document.write(x);
+        </script>
+    </body>
+</html>
